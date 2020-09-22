@@ -4,4 +4,37 @@ body {
 
 button {
   /* Solve me */
+
+  /*size properties*/
+  box-sizing: border-box;
+  border:none;
+  margin: none;
+  height: 100px;
+  width: 200px;
+  padding: 0px;
+
+  /*style properties*/
+  border-radius:15px;
+  background-color:blue;
+  text-align:center;
+
+  /*text color*/
+  color: white;
+  font-size: 22px;
+
+}
+
+/*clicking effect*/
+button:active{
+  background-color: darkblue;
+  margin-left: 10px;
+  margin-top: 5px;
+  height: 90px; /*-10*/
+  width: 180px; /*-20*/
+  
+}
+
+/*maintain color after clicking*/
+button:focus{
+  background-color: darkblue;
 }

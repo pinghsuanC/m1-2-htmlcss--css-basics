@@ -1,15 +1,28 @@
 img {
   max-width: 300px;
+  height: auto;
+  align-self: flex-end;
 }
 
 .img1 {
+
 }
 
 .img2 {
+  display: none;
+  visibility: hidden;
 }
 
 .img3 {
+  display: none;
+  visibility: hidden;
 }
 
 .img4 {
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }

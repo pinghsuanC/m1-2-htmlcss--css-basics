@@ -19,23 +19,55 @@ li {
 /* ADD CSS BELOW */
 
 body {
+  margin-top: 0px;
+  padding-top:0px;
+  border-top:0px;
+  width:100%;
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
 h2 {
+  font-family: "Bangers", cursive;
+  text-transform: uppercase;
 }
 
 h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-top:20px;
+  border-top: solid gray 1px;
+  padding-top: 10px;
 }
 
 h2 {
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
 .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 100%;
 }
 
 .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  
+  border: 1px dashed gray;
+  background-color: #eaeaee;
+  margin-top: 20px;
 }
 
+
 .image {
+  max-width: 90%;
+  height: 200px;  /*The height is fixed*/
+  
+  margin-bottom:5%;
 }

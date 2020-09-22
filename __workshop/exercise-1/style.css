@@ -1,3 +1,20 @@
 button {
   /* Styles here */
+
+  /*size properties*/
+  box-sizing: border-box;
+  border:none;
+  height: 100px;
+  width: 200px;
+  padding: 0px;
+
+  /*style properties*/
+  border-radius:15px;
+  background-color:blue;
+  text-align:center;
+
+  /*text color*/
+  color: white;
+  font-size: 22px;
+  
 }

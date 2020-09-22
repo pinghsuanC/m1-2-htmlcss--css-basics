@@ -1,11 +1,17 @@
 p {
+    box-sizing: border-box;
+    margin:0px;
 }
 
 .one {
+    background-color:#ffc0cb;
+
 }
 
 .two {
+    background-color:#ff00ff;
 }
 
 .three {
+    font-size: 5em;
 }
